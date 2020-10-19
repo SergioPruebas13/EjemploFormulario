@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: gray;
+}
+
+.container{
+    background: #00A1F3;
+    width: 65%;
+    min-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.tipoUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recientes{
+    background: white;
+    margin-top: 20px;
+    width: 300px;
+    height: 100%;
+}
+
+.recientes p{
+    text-align: center;
+}
+
+.mainform{
+    width: 55%;
+    min-width: 440px;
+    /* background: cornsilk; */
+}
+
+.nameObjebt{
+    /* background: chartreuse; */
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameObjebt input,select{
+    border: none;
+    padding: 2.5px;
+}
+
+.nameObjebt input{
+    width: 219px;
+}
+
+.nameObjebt select{
+    width: 224px;
+}
+
+
+.nameObjebt_TextArea{
+    /* background: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameObjebt_TextArea span{
+    margin-left: 5px;
+}
+
+.registrar{
+    /* background: red; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.registrar button{
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+}
+
